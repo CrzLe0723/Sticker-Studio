@@ -22,15 +22,15 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: content
     attributes:
       label: Content
       description: What should the documentation cover?
-      options:
-        - label: Document the relevant concepts or features.
-        - label: Include relevant examples or explanations.
-        - label: Verify that the documentation is accurate.
+      placeholder: |
+        - [ ] Topic or concept 1
+        - [ ] Topic or concept 2
+        - [ ] Topic or concept 3
     validations:
       required: true
 
