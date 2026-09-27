@@ -22,15 +22,15 @@ body:
     validations:
       required: true
 
-  - type: checkboxes
+  - type: textarea
     id: requirements
     attributes:
       label: Requirements
-      description: What needs to be completed for this task to be considered done?
-      options:
-        - label: Requirement 1
-        - label: Requirement 2
-        - label: Requirement 3
+      description: List the requirements that must be completed.
+      placeholder: |
+        - [ ] Requirement 1
+        - [ ] Requirement 2
+        - [ ] Requirement 3
     validations:
       required: true
 
