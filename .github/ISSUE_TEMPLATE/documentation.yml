@@ -2,7 +2,7 @@ name: Documentation
 description: Create a documentation task for Sticker Studio
 title: "[Docs] "
 labels:
-  - "[documentation]"
+  - ["documentation"]
 body:
   - type: textarea
     id: documentation
