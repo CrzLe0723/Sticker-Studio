@@ -2,7 +2,7 @@ name: Feature Request
 description: Suggest a new feature or improvement for Sticker Studio
 title: "[Feature] "
 labels:
-  - "type: feature"
+  - ["feature"]
 body:
   - type: textarea
     id: feature
